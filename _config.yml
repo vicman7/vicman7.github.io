@@ -20,7 +20,6 @@
 
 title: Victor Tapias
 email: ""
-linkedin: "https://www.linkedin.com/in/victor-manuel-tapias-serna-63b361114/"
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal website! Let's collaborate on designing electric power lines and systems, developing AI tools, and creating Python algorithms for automation and data analysis. Feel free to reach out to me on LinkedIn!.
 baseurl: "" # the subpath of your site, e.g. /blog
