@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Victor Tapias – Electrical Engineer specialised in Power Systems, Robotics & Data Analytics" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-ancestors 'none'; form-action 'self';" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin" />
+  <title>Victor Tapias | Power & Robotics Engineer</title>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+      --accent: #38bdf8;
+      --text-light: #f1f5f9;
+      --text-muted: #cbd5e1;
+      --card-bg: #1e293b;
+      --radius: 1.25rem;
+      --shadow: 0 10px 25px rgba(0,0,0,.25);
+    }
+
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-light);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    main {
+      background: var(--card-bg);
+      padding: 3rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      max-width: 960px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      color: var(--accent);
+      margin: 2rem 0 1rem;
+    }
+
+    p, li {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 0.75rem 1.25rem;
+      padding-left: 1rem;
+    }
+
+    .cta {
+      margin-top: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background: var(--accent);
+      color: #0f172a;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+    }
+    .btn:hover {
+      background-color: #0ea5e9;
+    }
+
+    section + section {margin-top: 1.5rem;}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Victor Tapias</h1>
+      <p>Electrical Engineer · Power Systems &amp; Robotics · Data Analytics</p>
+    </header>
+
+    <section id="about">
+      <h2>Profile Snapshot</h2>
+      <p>Engineer with a proven track record delivering high‑impact transmission line and substation projects across LATAM, building autonomous robotic prototypes, and automating data workflows with Python. Passionate about leveraging technology to create resilient, smart energy systems.</p>
+    </section>
+
+    <section id="expertise">
+      <h2>Core Competencies</h2>
+      <ul>
+        <li>⚡ High‑Voltage Power Line Design (33–500 kV) &amp; Power Flow Studies</li>
+        <li>🤖 Robotics Prototyping &amp; Control (Arduino, Raspberry Pi)</li>
+        <li>📊 Data Analytics, Python Automation &amp; Reporting</li>
+        <li>🛠️ Engineering Tools: PLS‑CADD, ATPDraw, XGS Lab, MATLAB, AutoCAD</li>
+        <li>🌐 Cloud &amp; DevOps: GitHub, Codespaces, CI/CD</li>
+      </ul>
+    </section>
+
+    <section id="highlights">
+      <h2>Selected Highlights</h2>
+      <ul>
+        <li>🚀 Doubled transmission capacity of power lines in extreme climates, recognised by clients like ISA &amp; Transelec.</li>
+        <li>💡 Automated structure load reports in Python, cutting manual work by 50% and ensuring repeatable, auditable results.</li>
+        <li>🛰️ Built autonomous vehicle &amp; drone prototypes from recycled materials, showcasing creativity and resourcefulness.</li>
+        <li>🏆 Contributed to GitHub's official <code>gitignore</code> repository; active open‑source collaborator.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Let’s Collaborate</h2>
+      <p>Interested in advancing power infrastructure, robotics, or data‑driven engineering? Let’s connect.</p>
+      <div class="cta">
+        <a href="mailto:tapiasv07@gmail.com" class="btn">Email Victor</a>
+        <a href="https://github.com/vicman7" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/victor-manuel-tapias-serna-63b361114/" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
