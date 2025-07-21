@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Victor Tapias – Electrical Engineer specialised in Power Systems, Robotics & Data Analytics" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-ancestors 'none'; form-action 'self';" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-ancestors 'none'; form-action 'self'; script-src 'self';" />
   <meta http-equiv="X-Content-Type-Options" content="nosniff" />
   <meta http-equiv="Referrer-Policy" content="strict-origin" />
   <title>Victor Tapias | Power & Robotics Engineer</title>
@@ -82,6 +82,7 @@
       text-decoration: none;
       font-weight: 600;
       transition: background-color 0.2s ease;
+      cursor: pointer;
     }
     .btn:hover {
       background-color: #0ea5e9;
@@ -89,6 +90,13 @@
 
     section + section {margin-top: 1.5rem;}
   </style>
+  <script>
+    function revealEmail() {
+      const user = "tapiasv07";
+      const domain = "gmail.com";
+      window.location.href = `mailto:${user}@${domain}`;
+    }
+  </script>
 </head>
 <body>
   <main>
@@ -127,7 +135,7 @@
       <h2>Let’s Collaborate</h2>
       <p>Interested in advancing power infrastructure, robotics, or data‑driven engineering? Let’s connect.</p>
       <div class="cta">
-        <a href="mailto:tapiasv07@gmail.com" class="btn">Email Victor</a>
+        <button class="btn" onclick="revealEmail()">Email Victor</button>
         <a href="https://github.com/vicman7" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/victor-manuel-tapias-serna-63b361114/" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </div>
